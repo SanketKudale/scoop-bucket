@@ -1,0 +1,22 @@
+{
+  "version": "0.1.1",
+  "description": "Deterministic, conflict-aware Spring Boot backend generator",
+  "homepage": "https://sanketkudale.github.io/backsmith/",
+  "license": "Apache-2.0",
+  "url": "https://github.com/SanketKudale/backsmith/releases/download/v0.1.1/backsmith.zip",
+  "hash": "5d02bb4cb37e4d4bd52f3f017407f9a82cde9ed735d912d8a465261c8dc9a81e",
+  "extract_dir": "backsmith-0.1.1",
+  "bin": [
+    [
+      "bin\\backsmith.cmd",
+      "backsmith"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/SanketKudale/backsmith"
+  },
+  "autoupdate": {
+    "url": "https://github.com/SanketKudale/backsmith/releases/download/v$version/backsmith.zip",
+    "extract_dir": "backsmith-$version"
+  }
+}
