@@ -6,8 +6,15 @@
   "url": "https://github.com/SanketKudale/backsmith/releases/download/v1.0.0/backsmith.zip",
   "hash": "418e33b6f924aca8991a2f0fd03e39d01319df1ea1bf3be8f3554f0bb87ab796",
   "extract_dir": "backsmith-1.0.0",
-  "bin": [["bin\\backsmith.cmd", "backsmith"]],
-  "checkver": {"github": "https://github.com/SanketKudale/backsmith"},
+  "bin": [
+    [
+      "bin\\backsmith.cmd",
+      "backsmith"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/SanketKudale/backsmith"
+  },
   "autoupdate": {
     "url": "https://github.com/SanketKudale/backsmith/releases/download/v$version/backsmith.zip",
     "extract_dir": "backsmith-$version"
